@@ -2,8 +2,13 @@
 Тестовое задание Banki.ru 
 
 # Стек проекта:
-<img src = "https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white" alt="materialUi"/>
+<p>
+    <img src = "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="materialUi"/>
+    <img src = "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="reactJs"/>
+    <img src = "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="ts"/>
 
+
+</p>
 ## Установка
 
 Для начала работы с проектом выполните следующие шаги:
