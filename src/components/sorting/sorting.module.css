@@ -1,0 +1,10 @@
+.sorting {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	display: block;
+	float: left;
+
+}
