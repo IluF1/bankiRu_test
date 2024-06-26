@@ -1,5 +1,8 @@
-# My App
+# Banki ru test
 Тестовое задание Banki.ru 
+
+# Стек проекта:
+<img src = "https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white" alt="materialUi"/>
 
 ## Установка
 
