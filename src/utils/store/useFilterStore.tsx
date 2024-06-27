@@ -1,6 +1,4 @@
 // TODO:Можно сделать и без zustand
-
-import axios from 'axios'
 import { create } from 'zustand'
 import { IData, IFilterStoreState } from './helpers/interfaces'
 
@@ -16,8 +14,11 @@ export const useFilterStore = create<IFilterStoreState>(set => ({
   setAmount: (amount: number) => set(state => ({ ...state, amount })),
 
   fetchData: async (amount: number, filter: string) => {
-    const response = await axios.get(URL)
-    const products = response.data.products
+    const response = await fetch(URL, {
+      method: 'GET'
+    })
+    const data = await response.json()
+    const products = data.products
 
     let filteredData = products
 
