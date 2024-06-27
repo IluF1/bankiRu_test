@@ -1,3 +1,5 @@
+// TODO:Можно сделать и без zustand
+
 import axios from 'axios'
 import { create } from 'zustand'
 import { IData, IFilterStoreState } from './helpers/interfaces'
@@ -27,9 +29,9 @@ export const useFilterStore = create<IFilterStoreState>(set => ({
     }
 
     // Сортируем массив в зависимости от выбранного фильтра
-    if (filter === 'От большего к меньшему') {
+    if (filter === 'По максимальной сумме') {
       filteredData.sort((a: IData, b: IData) => b.amount - a.amount)
-    } else if (filter === 'От меньшего к большему') {
+    } else if (filter === 'По минимальной сумме') {
       filteredData.sort((a: IData, b: IData) => a.amount - b.amount)
     }
 

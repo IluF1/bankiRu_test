@@ -24,12 +24,13 @@ export const Sorting = () => {
 					onChange={handleChange}
 				>
 					<MenuItem value=''>Не сортировать</MenuItem>
-					<MenuItem value='От меньшего к большему'>
-						От меньшего к большему
+					<MenuItem value='По максимальной сумме'>
+						По максимальной сумме
 					</MenuItem>
-					<MenuItem value='От большего к меньшему'>
-						От большего к меньшему
+					<MenuItem value='По минимальной сумме'>
+						По минимальной сумме
 					</MenuItem>
+					
 				</Select>
 			</FormControl>
 		</div>
